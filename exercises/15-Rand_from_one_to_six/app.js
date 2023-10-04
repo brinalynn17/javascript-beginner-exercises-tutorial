@@ -1,6 +1,9 @@
 function getRandomInt()
 {
-	let randomNumber = Math.random();
-	return randomNumber;
+	const randomNumber = Math.random();
+
+	const scaledNumber = Math.floor(randomNumber *6) +1;
+
+	return scaledNumber;
 }
 console.log(getRandomInt());
